@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyAgACcvLyz7M9fE8JPJj21AsX4L0ZIc-_o",
+    authDomain: "cosmetic-market.firebaseapp.com",
+    databaseURL: "https://cosmetic-market.firebaseio.com",
+    projectId: "cosmetic-market",
+    storageBucket: "cosmetic-market.appspot.com",
+    messagingSenderId: "521532761266",
+    appId: "1:521532761266:web:5c2e6cb40358a275b815ab",
+    measurementId: "G-SV7TSL3DTK"
+  },
+  BASE_API: 'https://5ef408c1ac6d1e00168c9a49.mockapi.io'
 };
 
 /*

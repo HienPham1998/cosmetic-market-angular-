@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="w-50 row">
+            <p>Welcome to our market |</p>
+            <form [formGroup]="langForm">
+                <mat-form-field>
+                    <mat-select formControlName="language" value='en'>
+                        <mat-option value="en">
+                            English
+                        </mat-option>
+                        <mat-option value="vn">
+                            Vietnamese
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </form>
+        </div>
+        <div class="w-50 row right">
+            <p>
+                <mat-icon>person</mat-icon>
+            </p>
+            <form>
+                <mat-form-field>
+                    <mat-select>
+                        <mat-option value="username">
+                            HienPham
+                        </mat-option>
+                        <mat-option value="logout">
+                            Logout
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </form>
+        </div>
+    </div>
+</div>
